@@ -42,12 +42,12 @@
     {
       "beforeText": "<(?!\\/)([_:\\w][_:\\w-.\\d]*)([^/>]*(?!\\/)>)[^<]*$",
       "afterText": "^</([_:\\w][_:\\w-.\\d]*)\\s*>",
-      "action": { "indent": "indentOutdent" }
+      "action": {"indent": "indentOutdent"}
     },
     {
       "beforeText": "\\{%\\s*(block|if|for|with|macro|call|filter|raw|autoescape)\\b.*%\\}\\s*$",
       "afterText": "^\\s*\\{%\\s*end\\w+\\b.*%\\}",
-      "action": { "indent": "indentOutdent" }
+      "action": {"indent": "indentOutdent"}
     }
-  ],
+  ]
 }
