@@ -37,7 +37,7 @@
   "If condition": {
     "prefix": "if",
     "description": "IF condition",
-    "body": ["{% if $1 %}", "\t$0", "{% else %}", "\t","{% endif %}"]
+    "body": ["{% if $1 %}", "\t$0", "{% else %}", "\t", "{% endif %}"]
   },
   "Include": {
     "prefix": "include",
